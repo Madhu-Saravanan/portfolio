@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-require_once __DIR__ . '/mail_config.php';
-require_once __DIR__ . '/lib/Exception.php';
-require_once __DIR__ . '/lib/PHPMailer.php';
-require_once __DIR__ . '/lib/SMTP.php';
+require_once dirname(__DIR__) . '/mail_config.php';
+require_once dirname(__DIR__) . '/lib/Exception.php';
+require_once dirname(__DIR__) . '/lib/PHPMailer.php';
+require_once dirname(__DIR__) . '/lib/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
