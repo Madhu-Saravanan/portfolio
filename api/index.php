@@ -32,6 +32,7 @@ if ($flash) setcookie('flash', '', time() - 3600, $base . '/');
   <nav id="main-nav">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
     <a href="#education">Journey</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -205,6 +206,44 @@ if ($flash) setcookie('flash', '', time() - 3600, $base . '/');
         <span class="tag">Claude AI</span>
         <span class="tag">AI-Assisted Dev</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="container">
+    <span class="section-label reveal">My Work</span>
+    <h2 class="section-title reveal d1">Projects</h2>
+    <div class="divider reveal d2"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">✅</div>
+          <div class="project-links">
+            <a href="https://madhu-saravanan-todo-app.vercel.app/" target="_blank" rel="noopener" class="project-link-btn">Live Demo ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">Day Task Tracker</h3>
+        <p class="project-desc">
+          A full-stack todo application to track day-to-day activities and tasks.
+          Features task creation, completion tracking, and persistent storage —
+          helping users stay organised and productive every day.
+        </p>
+        <div class="project-meta">
+          <div class="project-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">TiDB</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
