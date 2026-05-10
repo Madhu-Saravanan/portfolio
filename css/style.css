@@ -387,7 +387,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 }
 
 /* ===== ABOUT ===== */
-#about { padding: 130px 0; background: rgba(8,11,20,0.72); }
+#about { padding: 60px 0; background: rgba(8,11,20,0.72); }
 
 .about-grid {
   display: grid;
@@ -455,7 +455,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 
 /* ===== SKILLS ===== */
 #skills {
-  padding: 130px 0;
+  padding: 60px 0;
   background: rgba(15,20,37,0.76);
   position: relative;
 }
@@ -519,7 +519,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 
 
 /* ===== PROJECTS ===== */
-#projects { background: rgba(15,20,37,0.76); padding: 130px 0; }
+#projects { background: rgba(15,20,37,0.76); padding: 60px 0; }
 
 .projects-list { display: flex; flex-direction: column; gap: 48px; margin-top: 56px; }
 
@@ -676,7 +676,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 }
 
 /* ===== EDUCATION & EXPERIENCE ===== */
-#education { padding: 130px 0; background: rgba(8,11,20,0.72); }
+#education { padding: 60px 0; background: rgba(8,11,20,0.72); }
 
 .edu-grid {
   display: grid;
@@ -796,7 +796,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 
 /* ===== CONTACT ===== */
 #contact {
-  padding: 130px 0;
+  padding: 60px 0;
   background: rgba(15,20,37,0.76);
   position: relative;
 }
