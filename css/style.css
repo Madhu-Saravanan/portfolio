@@ -519,7 +519,7 @@ nav a:hover::after, nav a.active::after { width: 100%; }
 
 
 /* ===== PROJECTS ===== */
-#projects { background: rgba(15,20,37,0.76); }
+#projects { background: rgba(15,20,37,0.76); padding: 130px 0; }
 
 .projects-list { display: flex; flex-direction: column; gap: 48px; margin-top: 56px; }
 
