@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /portfolio/
+
+# Redirect browser access of .php URLs to extensionless
+RewriteCond %{THE_REQUEST} \s/+portfolio/([^?\s]+)\.php [NC]
+RewriteRule ^ /portfolio/%1 [R=301,L]
+
+# Internally map extensionless requests to .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
