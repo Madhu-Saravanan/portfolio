@@ -255,26 +255,8 @@ if ($flash) setcookie('flash', '', time() - 3600, $base . '/');
               <span class="b-dot green"></span>
               <div class="browser-url">madhu-saravanan-todo-app.vercel.app</div>
             </div>
-            <div class="browser-body">
-              <div class="todo-mock">
-                <div class="todo-mock-header">✅ Day Task Tracker</div>
-                <div class="todo-mock-input">+ Add a new task...</div>
-                <div class="todo-row done">
-                  <span class="todo-check checked"></span> Design portfolio website
-                </div>
-                <div class="todo-row done">
-                  <span class="todo-check checked"></span> Setup TiDB cloud database
-                </div>
-                <div class="todo-row done">
-                  <span class="todo-check checked"></span> Deploy to Vercel
-                </div>
-                <div class="todo-row">
-                  <span class="todo-check"></span> Add task categories
-                </div>
-                <div class="todo-row">
-                  <span class="todo-check"></span> Build mobile app version
-                </div>
-              </div>
+            <div class="browser-body" style="padding:0;">
+              <img src="<?= $base ?>/images/todo-preview.png" alt="Day Task Tracker preview" style="width:100%;display:block;border-radius:0 0 12px 12px;" />
             </div>
           </div>
         </div>
