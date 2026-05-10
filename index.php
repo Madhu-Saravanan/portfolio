@@ -217,23 +217,21 @@ if ($flash) setcookie('flash', '', time() - 3600, $base . '/');
     <h2 class="section-title reveal d1">Projects</h2>
     <div class="divider reveal d2"></div>
 
-    <div class="projects-grid">
+    <div class="projects-list">
 
-      <div class="project-card reveal">
-        <div class="project-header">
-          <div class="project-icon">✅</div>
-          <div class="project-links">
-            <a href="https://madhu-saravanan-todo-app.vercel.app/" target="_blank" rel="noopener" class="project-link-btn">Live Demo ↗</a>
-          </div>
-        </div>
-        <h3 class="project-title">Day Task Tracker</h3>
-        <p class="project-desc">
-          A full-stack todo application to track day-to-day activities and tasks.
-          Features task creation, completion tracking, and persistent storage —
-          helping users stay organised and productive every day.
-        </p>
-        <div class="project-meta">
-          <div class="project-tags">
+      <div class="project-featured reveal">
+
+        <!-- Info -->
+        <div class="pf-info">
+          <span class="pf-number">Project — 01</span>
+          <h3 class="pf-title">Day Task Tracker</h3>
+          <p class="pf-desc">
+            A full-stack todo application to track day-to-day activities and tasks.
+            Features task creation, completion tracking, and persistent storage —
+            helping users stay organised and productive every day.
+            Hosted on Vercel with TiDB as the cloud MySQL database.
+          </p>
+          <div class="pf-tags">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
             <span class="tag">TiDB</span>
@@ -241,7 +239,46 @@ if ($flash) setcookie('flash', '', time() - 3600, $base . '/');
             <span class="tag">HTML5</span>
             <span class="tag">CSS3</span>
           </div>
+          <div>
+            <a href="https://madhu-saravanan-todo-app.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">
+              Live Demo ↗
+            </a>
+          </div>
         </div>
+
+        <!-- Browser mockup -->
+        <div class="pf-preview">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="b-dot red"></span>
+              <span class="b-dot yellow"></span>
+              <span class="b-dot green"></span>
+              <div class="browser-url">madhu-saravanan-todo-app.vercel.app</div>
+            </div>
+            <div class="browser-body">
+              <div class="todo-mock">
+                <div class="todo-mock-header">✅ Day Task Tracker</div>
+                <div class="todo-mock-input">+ Add a new task...</div>
+                <div class="todo-row done">
+                  <span class="todo-check checked"></span> Design portfolio website
+                </div>
+                <div class="todo-row done">
+                  <span class="todo-check checked"></span> Setup TiDB cloud database
+                </div>
+                <div class="todo-row done">
+                  <span class="todo-check checked"></span> Deploy to Vercel
+                </div>
+                <div class="todo-row">
+                  <span class="todo-check"></span> Add task categories
+                </div>
+                <div class="todo-row">
+                  <span class="todo-check"></span> Build mobile app version
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
